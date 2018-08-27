@@ -1,0 +1,118 @@
+.header
+{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	align-items: center;
+	overflow: hidden;
+	color: white;	
+	z-index: 2;
+	background-color: #000;
+}
+h2
+{
+	background-color: #f1f1f1;
+  	width: 100px;
+  	height: 30px;
+  	margin: 10px;
+  	padding: 5px;
+  	font-size: 20px;
+  	color: red;
+  	float:left;
+  	text-align: center;
+}
+p
+{
+	padding: 5px;
+}
+.container
+{
+	float: right;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: flex-end;
+}
+.container > div 
+{
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  color: red;
+  text-align: center;
+}
+body
+{
+	height: 100%;
+}
+.side_nav
+{
+	height: 100%;
+	width: 15%;
+	text-align: center;
+	position: fixed;
+	background-color:black;
+	margin-top: 60px;
+}
+
+a
+{
+	padding: 2px;
+	color:white;
+	overflow-wrap: break-word;
+	text-decoration: none;
+}
+.main
+{
+	display: flex;
+	float: right;
+	margin-left: 15%;
+	z-index: -1;
+	width: 85%;
+	margin-top: 0px;
+	height: auto;
+	background-color:white;
+	flex-direction: row;
+	justify-content: flex-start;	
+}
+.col
+{
+	align-self: auto;
+	margin:10px;
+	width: 25%;
+	border:1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: green;
+	padding: 5px;
+}
+.hero_image
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero_img.jpg');
+	height: 70%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    z-index: 1;
+}
+.hero_text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
