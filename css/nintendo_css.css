@@ -1,0 +1,117 @@
+$blue: #00bbda;
+$red: #ff5f53;
+$nin-red: #d10019;
+$white: #e6e6e6;
+$light-black: #1a1a1a;
+$dark-black: #0d0d0d;
+
+body
+{
+  background: #e6e6e6;
+}
+
+.box
+{
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+.main-body 
+{
+  width:80%;
+  height: 81.25%;
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  background: transparent;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  border-radius: 60px;
+}
+.screen-body 
+{
+  background:#0d0d0d;
+}
+.screen 
+{
+  position: relative;
+  top:5%;
+  left:2.5%;
+  width: 95%;
+  height: 90%;
+  background:#d10019;
+  border-radius: 5px;
+}
+.logo-left  {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+  width: 15%;
+  height: 70%;
+  background: white;
+  border-radius: 45px 0 0 45px;
+}
+
+.inside-left{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  height: 90%;
+  width: 80%;
+  background: red;
+  border-radius: 40px 0 0 40px;
+}
+
+.circle-left {
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  height: 15%;
+  width: 40%;
+  background: white;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down {
+  0%{
+    bottom: 10%;
+  }
+  50%{
+    bottom: 75%;
+  }
+  100%{
+    bottom: 10%;
+  }
+}
+.logo-right  {
+  position: absolute;
+  top: 15%;
+  right: 33%;
+  width: 15%;
+  height: 70%;
+  background: white;
+  border-radius: 0 45px	45px 0;
+}
+
+.circle-right {
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  height: 15%;
+  width: 40%;
+  background: red;
+  border-radius: 50%;
+  animation: move-up 2s infinite;
+}
+@keyframes move-up {
+  0%{
+    bottom: 75%;
+  }
+  50%{
+    bottom: 10%;
+  }
+  100%{
+    bottom: 75%;
+  }
+}
+

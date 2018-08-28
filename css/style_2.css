@@ -7,7 +7,7 @@
 	overflow: hidden;
 	color: white;	
 	z-index: 2;
-	background-color: #000;
+	background-color: #333;
 }
 h2
 {
@@ -75,6 +75,8 @@ a
 	height: auto;
 	background-color:white;
 	flex-direction: row;
+	overflow: hidden;
+	position: absolute;
 	justify-content: flex-start;	
 }
 .col
@@ -121,11 +123,15 @@ a
 {
 	.main
 	{
-		flex-direction: column;
+		flex-direction: column; 
 	}
 	.col
 	{
 		align-self: center;
 		width: 85%;
+	}
+	.side_nav
+	{
+		width: 100px;
 	}
 }

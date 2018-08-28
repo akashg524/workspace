@@ -1,0 +1,44 @@
+.box
+{
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+  background-color: #b0b0b0;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.color
+{
+	text-align: center;
+}
+#violet
+{
+	background-color: #9400D3;
+}
+#indigo
+{
+	background-color: #4B0082;
+}
+#blue
+{
+	background-color: #0000FF;
+}
+#green
+{
+	background-color: #00FF00;
+}
+#yellow
+{
+	background-color: #FFFF00;
+}
+#orange
+{
+	background-color: #FF7F00;
+}
+#red
+{
+	background-color: #FF0000;
+}
+body
+{
+}
