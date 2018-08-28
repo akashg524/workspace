@@ -68,9 +68,9 @@ a
 {
 	display: flex;
 	float: right;
-	margin-left: 15%;
 	z-index: -1;
 	width: 85%;
+	margin-left: 15%;
 	margin-top: 0px;
 	height: auto;
 	background-color:white;
@@ -115,4 +115,17 @@ a
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+}
+
+@media (max-width: 960px) 
+{
+	.main
+	{
+		flex-direction: column;
+	}
+	.col
+	{
+		align-self: center;
+		width: 85%;
+	}
 }
