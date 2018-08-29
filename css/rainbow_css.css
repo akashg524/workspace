@@ -5,7 +5,7 @@
   margin: auto;
   background-color: #b0b0b0;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 .color
 {
@@ -14,27 +14,196 @@
 #violet
 {
 	background-color: #9400D3;
+	animation: violet 3s infinite;
 }
+@keyframes violet
+{
+	0%
+	{
+		background-color: #9400D3;
+	}
+	20%
+	{
+		background-color: #4B0082;
+	}
+	40%
+	{
+		background-color: #0000FF;
+	}
+	60%
+	{
+		background-color: #00FF00;
+	}
+	80%
+	{
+		background-color: #FFFF00;
+	}
+	100%
+	{
+		background-color: #FF7F00;
+	}
+} 
 #indigo
 {
 	background-color: #4B0082;
+	animation: indigo 3s infinite;
 }
+@keyframes indigo
+{
+	0%
+	{
+		background-color: #FF7F00;
+	}
+	20%
+	{
+		background-color: #9400D3;
+	}
+	40%
+	{
+		background-color: #4B0082;
+	}
+	60%
+	{
+		background-color: #0000FF;
+	}
+	80%
+	{
+		background-color: #00FF00;
+	}
+	100%
+	{
+		background-color: #FFFF00;
+	}	
+} 
 #blue
 {
 	background-color: #0000FF;
+	animation: blue 3s infinite;
 }
+
+@keyframes blue
+{
+	0%
+	{
+		background-color: #FFFF00;
+	}
+	20%
+	{
+		background-color: #FF7F00;
+	}
+	40%
+	{
+		background-color: #9400D3;
+	}
+	60%
+	{
+		background-color: #4B0082;
+	}
+	80%
+	{
+		background-color: #0000FF;
+	}
+	100%
+	{
+		background-color: #00FF00;
+	}
+} 
 #green
 {
 	background-color: #00FF00;
+	animation: green 3s infinite;
 }
+@keyframes green
+{
+	0%
+	{
+		background-color: #00FF00;
+	}
+	20%
+	{
+		background-color: #FFFF00;
+	}
+	40%
+	{
+		background-color: #FF7F00;
+	}
+	60%
+	{
+		background-color: #9400D3;
+	}
+	80%
+	{
+		background-color: #4B0082;
+	}
+	100%
+	{
+		background-color: #0000FF;
+	}
+} 
 #yellow
 {
 	background-color: #FFFF00;
+	animation: yellow 3s infinite;
 }
+@keyframes yellow
+{
+	0%
+	{
+		background-color: #0000FF;
+	}
+	20%
+	{
+		background-color: #00FF00;
+	}
+	40%
+	{
+		background-color: #FFFF00;
+	}
+	60%
+	{
+		background-color: #FF7F00;
+	}
+	80%
+	{
+		background-color: #9400D3;
+	}
+	100%
+	{
+		background-color: #4B0082;
+	}
+} 
 #orange
 {
 	background-color: #FF7F00;
+	animation: orange 3s infinite;
 }
+@keyframes orange
+{
+	0%
+	{
+		background-color: #4B0082;
+	}
+	20%
+	{
+		background-color: #0000FF;
+	}
+	40%
+	{
+		background-color: #00FF00;
+	}
+	60%
+	{
+		background-color: #FFFF00;
+	}
+	80%
+	{
+		background-color: #FF7F00;
+	}
+	100%
+	{
+		background-color: #9400D3;
+	}
+} 
 #red
 {
 	background-color: #FF0000;
