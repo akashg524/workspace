@@ -58,6 +58,29 @@ body {
 		text-align: center;
 	}
 }
+.headings
+{
+	margin-top: 10px;
+	text-align: center;
+  	float: right;
+  	margin-top: 20px;
+  	margin-bottom: 10px;
+  	display: inline-block;
+  	height: 50px;
+	border:1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: green;
+	padding: 13px;
+  	background-color: #999;
+  	align-self: auto;
+	border:1px;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: green;
+	padding: 5px;
+}
 .header
 {
 	position: fixed;
@@ -131,17 +154,17 @@ a
 	width: 85%;
 	margin-top: 0px;
 	height: auto;
-	background-color:grey;
+	background-color:#423d7e;
 	flex-direction: row;
 	overflow: hidden;
+	flex-wrap: wrap;
 	justify-content: flex-start;	
 }
 .col
 {
 	align-self: auto;
-	margin:10px;
-	width: 25%;
 	border:1px;
+	margin-bottom: 20px;
 	border-style: solid;
 	border-radius: 5px;
 	border-color: green;
@@ -149,9 +172,10 @@ a
 }
 .hero_image
 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero_img.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero_image_1.jpg');
 	height: 50%;
 	width: 85%;
+	margin-top: auto;
 	float: right;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -197,6 +221,7 @@ a
 	{
 		margin-left: 75px;
 	}
+
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 /* Colors */
@@ -414,3 +439,22 @@ body
   }
 }
 
+ul
+{
+	text-align: center;
+	text-decoration: none;
+	color: #e5c3c1;
+}
+ul li
+{
+	margin:5px;
+}
+.col_flex
+{
+	display: flex;
+	flex-direction: column;	
+	width: 20%;
+	margin-top: 10px;
+	margin-left: 2.5%;
+  	margin-right: 2.5%;
+}
