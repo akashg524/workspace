@@ -1,4 +1,5 @@
-body {
+
+ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,6 +17,7 @@ body {
 	float: left;
 	overflow: hidden;
 	display: block;
+	min-width: 90px;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
@@ -223,7 +225,7 @@ a
 	}
 	.side_nav
 	{
-		min-width: 82px;
+		min-width: 90px;
 		width: 15%;
 	}
 	.hero_image
@@ -235,7 +237,6 @@ a
 		width: 95%;
 	}
 }
-@import url(https://fonts.googleapis.com/css?family=Raleway);
 /* Colors */
 * {
   margin: 0;
@@ -286,7 +287,7 @@ footer .social {
 @media (max-width: 600px) {
   footer .social {
     width: 100%;
-    margin-left: 82px;
+    margin-left: 90px;
   }
 }
 footer .social a {
@@ -326,20 +327,14 @@ footer .social a:hover {
   font-size: 0.8em;
   width: 40%;
 }
-@media (max-width: 540px)
+@media (max-width: 600px)
 {
 	.main
 	{
-		margin-left:82px;
-		width: 85%;
+		width:85%;
+		margin-left:90px;
 	}
 }
-$blue: #00bbda;
-$red: #ff5f53;
-$nin-red: #d10019;
-$white: #e6e6e6;
-$light-black: #1a1a1a;
-$dark-black: #0d0d0d;
 
 body
 {
