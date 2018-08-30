@@ -81,6 +81,15 @@ body {
 	border-color: green;
 	padding: 5px;
 }
+.col_flex
+{
+	display: flex;
+	flex-direction: column;	
+	width: 20%;
+	margin-top: 10px;
+	margin-left: 2.5%;
+  	margin-right: 2.5%;
+}
 .header
 {
 	position: fixed;
@@ -221,7 +230,10 @@ a
 	{
 		margin-left: 75px;
 	}
-
+	.col_flex
+	{
+		width: 95%;
+	}
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 /* Colors */
@@ -319,7 +331,7 @@ footer .social a:hover {
 	.main
 	{
 		margin-left:82px;
-		width: auto;
+		width: 85%;
 	}
 }
 $blue: #00bbda;
@@ -448,13 +460,4 @@ ul
 ul li
 {
 	margin:5px;
-}
-.col_flex
-{
-	display: flex;
-	flex-direction: column;	
-	width: 20%;
-	margin-top: 10px;
-	margin-left: 2.5%;
-  	margin-right: 2.5%;
 }
